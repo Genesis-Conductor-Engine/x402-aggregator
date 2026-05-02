@@ -1,0 +1,17 @@
+name = "x402-aggregator"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+account_id = "04c59c95ce8d0a0be98099b7f7e39d18"
+
+[vars]
+ENVIRONMENT = "production"
+PAY_TO = "0x2aF0103Cb5348e2919ed9CF7595E8Dbe157dA1B8"
+USDC = "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+
+[[kv_namespaces]]
+binding = "CACHE"
+id = "41d022bf99e24b1889813b5aba3775b0"
+
+# Cron: refresh catalog cache every 30 min, warmup other coalition endpoints every hour
+[triggers]
+crons = ["*/30 * * * *", "5 * * * *"]

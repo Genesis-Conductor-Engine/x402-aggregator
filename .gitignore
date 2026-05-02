@@ -1,0 +1,7 @@
+node_modules/
+.env*
+.shopify-token
+*.log
+.DS_Store
+dist/
+.wrangler/
