@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "x402-aggregator",
+  "owner": {
+    "name": "Genesis Conductor Engine (Igor Holt @invariantx)",
+    "url": "https://github.com/Genesis-Conductor-Engine"
+  },
+  "description": "x402 Aggregator providing paid BM25 search across the CDP x402 catalog. Experimental component in the Genesis Conductor public ecosystem for agentic discovery, paid tool access, and MCP-integrated retrieval patterns by @invariantx.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/Genesis-Conductor-Engine/x402-aggregator",
+  "keywords": [
+    "genesis-conductor",
+    "invariantx",
+    "x402",
+    "bm25-search",
+    "paid-tools",
+    "agentic-discovery",
+    "mcp-retrieval",
+    "openclaw-ecosystem"
+  ],
+  "plugins": [
+    {
+      "name": "x402-aggregator",
+      "source": "https://github.com/Genesis-Conductor-Engine/x402-aggregator",
+      "description": "Paid BM25 search aggregator over CDP x402 catalog. Supports agentic paid tool usage and retrieval in Genesis Conductor workflows. Complements OpenClaw skills (mcp-openclaw-bridge for publishing such capabilities as skills) and ties into the main @invariantx openclaw-skills marketplace for production orchestration.",
+      "version": "1.0.0",
+      "tags": ["x402", "search", "aggregator", "genesis-conductor"],
+      "category": "retrieval",
+      "homepage": "https://github.com/Genesis-Conductor-Engine/x402-aggregator",
+      "keywords": ["x402 aggregator bm25", "paid search cdp", "agentic tool access"]
+    }
+  ],
+  "links": {
+    "github": "https://github.com/Genesis-Conductor-Engine/x402-aggregator",
+    "main-marketplace": "https://github.com/igor-holt/openclaw-skills",
+    "x": "https://x.com/invariantx"
+  }
+}
